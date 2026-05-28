@@ -14,7 +14,7 @@ dist/
 **/*.tsbuildinfo
 .eslintcache
 
-/.vscode/
+.vscode/*
 .idea/
 
 # blender backups
@@ -37,3 +37,7 @@ examples/**/pnpm-lock.yaml
 
 # Husky internal runtime (we track .husky/pre-commit but not its scaffolding)
 .husky/_
+
+# Meta Quest agentic tooling: keep VS Code/Cursor workspace recommendations
+!.vscode/extensions.json
+!.vscode/mcp.json
